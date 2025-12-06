@@ -42,28 +42,28 @@ Les fonctions principales sont :
 Crée un réseau d'amis à partir d'une liste de couples (a, b).
 
 - liste_personnes(reseau)
-Renvoie la liste des membres du réseau.
+  -Renvoie la liste des membres du réseau.
 
 - sont_amis(reseau, personne1, personne2)
-Vérifie si deux personnes sont amies.
+  -Vérifie si deux personnes sont amies.
 
 - sont_amis_de(reseau, personne, groupe)
-Vérifie si une personne est amie avec tous les membres d'un groupe.
+  -Vérifie si une personne est amie avec tous les membres d'un groupe.
 
 - est_comu(reseau, groupe)
-Vérifie si un groupe forme une communauté (clique) : chaque membre est ami avec tous les autres.
+  -Vérifie si un groupe forme une communauté (clique) : chaque membre est ami avec tous les autres.
 
 - comu(groupe, reseau)
-Construit une communauté à partir d'un groupe donné, en ne gardant que les personnes qui sont toutes amies entre elles.
+  - Construit une communauté à partir d'un groupe donné, en ne gardant que les personnes qui sont toutes amies entre elles.
 
 - tri_popu(reseau, groupe)
-Trie les personnes d’un groupe par popularité décroissante (nombre d'amis).
+  -Trie les personnes d’un groupe par popularité décroissante (nombre d'amis).
 
 - comu_dans_reseau(reseau)
-Construit une communauté en considérant tout le réseau, après avoir trié les personnes par popularité.
+  -Construit une communauté en considérant tout le réseau, après avoir trié les personnes par popularité.
 
 - comu_dans_amis(personne, reseau)
-Construit une communauté autour d'une personne donnée, à partir de ses amis triés par popularité.
+  -Construit une communauté autour d'une personne donnée, à partir de ses amis triés par popularité.
 
 - comu_max(reseau)
-Parcourt tout le réseau et renvoie la plus grande communauté trouvée.
+  -Parcourt tout le réseau et renvoie la plus grande communauté trouvée.
